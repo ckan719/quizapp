@@ -1,0 +1,28 @@
+.intructions{
+    border: 1px solid darken($color: rgb(224, 192, 192), $amount: 10);
+    border-radius: 5px;
+    padding: $sm $lg;
+}
+.intructions.container {
+    margin-top: $lg;
+    margin-bottom: $lg;
+}
+h1{
+    font-size: $md;
+    text-align: center;
+}
+.liftline-icon{
+    color: green;
+    cursor: pointer;
+}
+.browser-default{
+    padding-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+@media(max-width: $md-breakpoint){
+    .intructions img{
+        width: 100% !important;
+        height: 100% !important;
+    }
+}

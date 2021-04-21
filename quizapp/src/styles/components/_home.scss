@@ -1,0 +1,86 @@
+#home{
+    background-image: url('../../assets/img/background.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100vw;
+
+    section{
+        background-color: rgba(0,0,0,0.7);
+        height: 80%;
+        width: 35%;
+        padding-left: $md;
+        padding-right: $md;
+        border-radius: 5px;
+
+    }
+    .cube{
+        text-align: center;
+    }
+    .play {
+        width: 100%;
+    }
+    h1{
+        font-size: $lg;
+        color: white;
+        text-align: center;
+    }
+    a.buttonplay{
+        background-color: green;
+        color: white;
+        cursor: pointer;
+        padding: $normal;
+        border-radius: 30px;
+        display: block;
+        text-align: center;
+        transition: 0.4s linear all;
+    }
+    a.buttonplay:hover{
+        background-color: darken($color: green, $amount: 10);
+    }
+    .authcontainer{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-top: $lg;
+    }
+
+    .authcontainer .authbutton1{
+        color: white;
+        cursor: pointer;
+        border-radius: 30px;
+        padding: $normal 0;
+        text-align: center;
+        width: 45%;
+        background-color: red;
+        transition: 0.4s linear all;
+    }
+    .authcontainer .authbutton1:hover{
+        background-color: darken($color: red, $amount: 10);
+    }
+    .authcontainer .authbutton2{
+        color: white;
+        cursor: pointer;
+        border-radius: 30px;
+        padding: $normal 0;
+        text-align: center;
+        width: 45%;
+        background-color: rgb(137, 103, 230);
+        transition: 0.4s linear all;
+    }
+    .authcontainer .authbutton2:hover{
+        background-color: darken($color: rgb(137, 103, 230), $amount: 10);
+    }
+
+   
+}
+@media (max-width: 768px){
+    #home section{
+        padding: 0 $normal;
+        width: 100%;
+        height: 100%;
+    }
+}
+

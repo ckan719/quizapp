@@ -1,0 +1,301 @@
+.ques.activee{
+    display: block;
+}
+// .ques{
+//     display: none;
+// }
+
+.answer.active{
+    background-color: rgb(255, 123, 0);
+}
+.answer{
+    background-color: blueviolet;
+}
+
+.ques.activee {
+    background-color: rgb(200, 238, 200);
+    border-left: 5px solid blue;
+    width: 80%;
+    margin:3rem auto 0 auto;
+    padding: 1.5rem 2rem;
+
+    .lifeline-container{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .lifeline{
+        position: relative;
+        top: -3px;
+    }
+
+    .lifeline-icon{
+        color: rgb(88, 97, 3);
+        cursor: pointer;
+    }
+
+    .lifeline-icon:hover{
+        background: none;
+        color: darken(orange, 10%);
+    }
+
+    h5{
+        font-size: 1.2rem;
+        margin-bottom: 3rem;
+        line-height: 1.5;
+        text-align: center;
+    }
+
+    .options-container{
+        display: inline-block;
+        width: 50%;
+    }
+    .option{
+         background-color: rgb(118, 118, 240);
+        border-radius: 30px;
+        color: white;
+        cursor: pointer;
+        margin: 2rem auto;
+        padding: 1rem;
+        transition: 0.3s linear all;
+        text-align: center;
+        width: 90%;
+        
+    }
+    .option.active{
+        background-color: darken($color:rgb(255, 123, 0), $amount: 10);
+    }
+    .option:hover{
+        background-color: darken($color:rgb(255, 123, 0), $amount: 10);
+    }
+    .button-container{
+        display: flex;
+        justify-content: flex-start;
+        margin: 0 auto 1.5rem auto;
+        padding: 2rem;
+        width: 80%;
+    
+    }
+    .button-container button{
+        border:none;
+        color: white;
+        cursor: pointer;
+        margin-right: 2rem;
+        padding: 0.5rem 1.5rem;
+    }
+    .button-container button:first-child{
+        background-color: darken($color:rgb(207, 152, 50) , $amount: 10);
+        transition: 0.2s linear all;
+    }
+    .button-container button:first-child:hover{
+        background-color: darken($color:rgb(173, 120, 21) , $amount: 10);
+    }
+
+    .button-container button:last-child{
+        background-color: darken($color:rgb(207, 152, 50) , $amount: 10);
+        transition: 0.2s linear all;
+        width: 102px;
+    }
+    .button-container button:last-child:hover{
+        background-color: darken($color:rgb(173, 120, 21) , $amount: 10);
+    }
+}
+.ques {
+    background-color: rgb(200, 238, 200);
+    border-left: 5px solid blue;
+    width: 80%;
+    margin:3rem auto 0 auto;
+    padding: 1.5rem 2rem;
+
+    .lifeline-container{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .lifeline{
+        position: relative;
+        top: -3px;
+    }
+
+    .lifeline-icon{
+        color: rgb(88, 97, 3);
+        cursor: pointer;
+    }
+
+    .lifeline-icon:hover{
+        background: none;
+        color: darken(orange, 10%);
+    }
+
+    h5{
+        font-size: 1.2rem;
+        margin-bottom: 3rem;
+        line-height: 1.5;
+        text-align: center;
+    }
+
+    .options-container{
+        display: inline-block;
+        width: 50%;
+    }
+    .option{
+         background-color: rgb(118, 118, 240);
+        border-radius: 30px;
+        color: white;
+        cursor: pointer;
+        margin: 2rem auto;
+        padding: 1rem;
+        transition: 0.3s linear all;
+        text-align: center;
+        width: 90%;
+        
+    }
+    .option.active{
+        background-color: darken($color:rgb(255, 123, 0), $amount: 10);
+    }
+    .option:hover{
+        background-color: darken($color:rgb(255, 123, 0), $amount: 10);
+    }
+    .button-container{
+        display: flex;
+        justify-content: flex-start;
+        margin: 0 auto 1.5rem auto;
+        padding: 2rem;
+        width: 80%;
+    
+    }
+    .button-container button{
+        border:none;
+        color: white;
+        cursor: pointer;
+        margin-right: 2rem;
+        padding: 0.5rem 1.5rem;
+    }
+    .button-container button:first-child{
+        background-color: darken($color:rgb(207, 152, 50) , $amount: 10);
+        transition: 0.2s linear all;
+    }
+    .button-container button:first-child:hover{
+        background-color: darken($color:rgb(173, 120, 21) , $amount: 10);
+    }
+
+    .button-container button:last-child{
+        background-color: darken($color:rgb(207, 152, 50) , $amount: 10);
+        transition: 0.2s linear all;
+        width: 102px;
+    }
+    .button-container button:last-child:hover{
+        background-color: darken($color:rgb(173, 120, 21) , $amount: 10);
+    }
+}
+.submit{
+    //position: fixed;
+    top: 105px;
+    left: 23px;
+}
+.btnsubmit {
+    width: 100%;
+    text-align: center;
+    margin-top: 17px;
+}
+.exit {
+    position: fixed;
+    top: 147px;
+    left: 43px;
+}
+span.right {
+    position: fixed;
+    top: 55px;
+    left: 47px;
+}
+
+// .questions{
+//     background-color: rgb(200, 238, 200);
+//     border-left: 5px solid blue;
+//     width: 80%;
+//     margin:3rem auto 0 auto;
+//     padding: 1.5rem 2rem;
+
+//     .lifeline-container{
+//         display: flex; 
+//         justify-content: space-between;
+
+//     }
+//     .lifeline{
+//         position: relative;
+//         top: -3px;
+//     }
+
+//     .lifeline-icon{
+//         color: lightgreen;
+//         cursor: pointer;
+//     }
+
+//     .lifeline-icon:hover{
+//         background: none;
+//         color: darken(orange, 10%);
+//     }
+
+//     h5{
+//         font-size: 1.2rem;
+//         margin-bottom: 3rem;
+//         line-height: 1.5;
+//         text-align: center;
+//     }
+
+//     .options-container{
+//         display: inline-block;
+//         width: 50%;
+//     }
+//     .option{
+//         background-color: rgb(118, 118, 240);
+//         border-radius: 30px;
+//         color: white;
+//         cursor: pointer;
+//         margin: 2rem auto;
+//         padding: 1rem;
+//         transition: 0.3s linear all;
+//         text-align: center;
+//         width: 90%;
+        
+//     }
+//     .option:hover{
+//         background-color: darken($color: rgb(118, 118, 240), $amount: 10);
+//     }
+// }
+// .button-container{
+//     display: flex;
+//     justify-content: flex-start;
+//     margin: 0 auto 1.5rem auto;
+//     padding: 2rem;
+//     width: 80%;
+
+// }
+// .button-container button{
+//     border:none;
+//     color: white;
+//     cursor: pointer;
+//     margin-right: 2rem;
+//     padding: 0.5rem 1.5rem;
+// }
+// .button-container button:first-child{
+//     background-color: darken($color:rgb(118, 118, 240) , $amount: 10);
+//     transition: 0.2s linear all;
+// }
+// .button-container button:first-child:hover{
+//     background-color: darken($color:rgb(118, 118, 240) , $amount: 20);
+// }
+// .button-container button:nth-child(2){
+//     background-color: green;
+//     transition: 0.2s linear all;
+// }
+// .button-container button:nth-child(2):hover{
+//     background-color: darken($color:green , $amount: 10);
+// }
+// .button-container button:last-child{
+//     background-color: red;
+//     transition: 0.2s linear all;
+// }
+// .button-container button:last-child:hover{
+//     background-color: darken($color:red , $amount: 10);
+// }
